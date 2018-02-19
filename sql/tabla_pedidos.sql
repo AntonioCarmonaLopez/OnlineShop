@@ -1,0 +1,8 @@
+CREATE TABLE pedidos (
+id INT (10) NOT NULL AUTO_INCREMENT,
+nombre VARCHAR (50),
+email VARCHAR (30),
+telefono VARCHAR (15),
+fecha TIMESTAMP,
+PRIMARY KEY(id)
+)
